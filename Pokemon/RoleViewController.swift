@@ -10,20 +10,25 @@ import UIKit
 
 class RoleViewController: UIViewController {
 
-    @IBOutlet var genderSegmentControl: UISegmentedControl!
     var pokemon: Pokemon?
+    @IBOutlet var nameLabel: UILabel!
     @IBOutlet var imageView: UIImageView!
     @IBOutlet var attributeImageView: UIImageView!
+    @IBOutlet var descriptionField: UITextView!
     override func viewDidLoad() {
         super.viewDidLoad()
         if let pokemon = pokemon {
             imageView.image = UIImage(named: pokemon.image)
+            nameLabel.text = pokemon.name
+            descriptionField.text = pokemon.description
+            attributeImageView.image = UIImage(named: pokemon.attribute)
+            /*
             if pokemon.gender == "M" {
                 genderSegmentControl.selectedSegmentIndex = 0
             } else {
                 genderSegmentControl.selectedSegmentIndex = 1
 
-            }
+            }*/
         }
     }
     

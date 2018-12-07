@@ -11,10 +11,11 @@ import UIKit
 class RolesTableViewController: UITableViewController {
     
     @IBOutlet var labels: [UILabel]!
+    @IBOutlet var imageView: UIImageView!
     var pokemons = [
-        Pokemon(name: "金城武", image: "金城武", gender: "M"),
-        Pokemon(name: "三色貓", image: "三色貓", gender: "F"),
-        Pokemon(name: "熊", image: "熊", gender: "M")
+        Pokemon(name: "急凍鳥", image: "急凍鳥", attribute: "急凍鳥屬性", description: "操縱冰的傳說的鳥寶可夢。因為拍動翅膀就能冷卻空氣，所以據說急凍鳥飛過的地方就會下雪。"),
+        Pokemon(name: "閃電鳥", image: "閃電鳥", attribute: "閃電鳥屬性", description: "操縱電的傳說的鳥寶可夢。平時生活在雷雲之中。被雷電擊中時體內會湧現出力量。"),
+        Pokemon(name: "火焰鳥", image: "火焰鳥", attribute: "火焰鳥屬性", description: "操縱電的傳說的鳥寶可夢。平時生活在雷雲之中。被雷電擊中時體內會湧現出力量。")
     ]
 
 
@@ -23,6 +24,7 @@ class RolesTableViewController: UITableViewController {
 
         for (i, label) in labels.enumerated() {
             label.text = pokemons[i].name
+            imageView.image = UIImage(named: pokemons[i].image)
         }
     }
 
@@ -84,7 +86,7 @@ class RolesTableViewController: UITableViewController {
         // Pass the selected object to the new view controller.
         let controller = segue.destination as? RoleViewController
         if let row = tableView.indexPathForSelectedRow?.row {
-            controller?.role = pokemons[row]
+            controller?.pokemon = pokemons[row]
 
         }
     }

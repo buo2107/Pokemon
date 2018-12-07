@@ -11,7 +11,8 @@ import Foundation
 struct Pokemon{
     let name: String
     let image: String
-    let gender: String
+    let attribute: String
+    let description: String
 }
 
 

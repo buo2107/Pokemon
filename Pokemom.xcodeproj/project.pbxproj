@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		59FBC0B421BA6C5100EA8A7C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 59FBC0B321BA6C5100EA8A7C /* Default-568h@2x.png */; };
 		9B53571021B7AB5A0018AEBB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B53570F21B7AB5A0018AEBB /* AppDelegate.swift */; };
 		9B53571221B7AB5A0018AEBB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B53571121B7AB5A0018AEBB /* ViewController.swift */; };
 		9B53571521B7AB5A0018AEBB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B53571321B7AB5A0018AEBB /* Main.storyboard */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		59FBC0B321BA6C5100EA8A7C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		9B53570C21B7AB5A0018AEBB /* Pokemom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pokemom.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B53570F21B7AB5A0018AEBB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9B53571121B7AB5A0018AEBB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -44,6 +46,7 @@
 		9B53570321B7AB5A0018AEBB = {
 			isa = PBXGroup;
 			children = (
+				59FBC0B321BA6C5100EA8A7C /* Default-568h@2x.png */,
 				9B53570E21B7AB5A0018AEBB /* Pokemon */,
 				9B53570D21B7AB5A0018AEBB /* Products */,
 			);
@@ -132,6 +135,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9B53571A21B7AB5C0018AEBB /* LaunchScreen.storyboard in Resources */,
+				59FBC0B421BA6C5100EA8A7C /* Default-568h@2x.png in Resources */,
 				9B53571721B7AB5C0018AEBB /* Assets.xcassets in Resources */,
 				9B53571521B7AB5A0018AEBB /* Main.storyboard in Resources */,
 			);
