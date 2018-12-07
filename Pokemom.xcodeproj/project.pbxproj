@@ -12,16 +12,22 @@
 		9B53571521B7AB5A0018AEBB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B53571321B7AB5A0018AEBB /* Main.storyboard */; };
 		9B53571721B7AB5C0018AEBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B53571621B7AB5C0018AEBB /* Assets.xcassets */; };
 		9B53571A21B7AB5C0018AEBB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B53571821B7AB5C0018AEBB /* LaunchScreen.storyboard */; };
+		9B53572221B7AC040018AEBB /* RolesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B53572121B7AC040018AEBB /* RolesTableViewController.swift */; };
+		9B53572421B7AC150018AEBB /* RoleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B53572321B7AC150018AEBB /* RoleViewController.swift */; };
+		9B53572621B7B97E0018AEBB /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B53572521B7B97E0018AEBB /* Pokemon.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		9B53570C21B7AB5A0018AEBB /* Prepare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Prepare.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B53570C21B7AB5A0018AEBB /* Pokemom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pokemom.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B53570F21B7AB5A0018AEBB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9B53571121B7AB5A0018AEBB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9B53571421B7AB5A0018AEBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9B53571621B7AB5C0018AEBB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9B53571921B7AB5C0018AEBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9B53571B21B7AB5C0018AEBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B53572121B7AC040018AEBB /* RolesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RolesTableViewController.swift; sourceTree = "<group>"; };
+		9B53572321B7AC150018AEBB /* RoleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoleViewController.swift; sourceTree = "<group>"; };
+		9B53572521B7B97E0018AEBB /* Pokemon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pokemon.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,7 +44,7 @@
 		9B53570321B7AB5A0018AEBB = {
 			isa = PBXGroup;
 			children = (
-				9B53570E21B7AB5A0018AEBB /* Prepare */,
+				9B53570E21B7AB5A0018AEBB /* Pokemon */,
 				9B53570D21B7AB5A0018AEBB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,30 +52,33 @@
 		9B53570D21B7AB5A0018AEBB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9B53570C21B7AB5A0018AEBB /* Prepare.app */,
+				9B53570C21B7AB5A0018AEBB /* Pokemom.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9B53570E21B7AB5A0018AEBB /* Prepare */ = {
+		9B53570E21B7AB5A0018AEBB /* Pokemon */ = {
 			isa = PBXGroup;
 			children = (
 				9B53570F21B7AB5A0018AEBB /* AppDelegate.swift */,
 				9B53571121B7AB5A0018AEBB /* ViewController.swift */,
 				9B53571321B7AB5A0018AEBB /* Main.storyboard */,
+				9B53572121B7AC040018AEBB /* RolesTableViewController.swift */,
+				9B53572321B7AC150018AEBB /* RoleViewController.swift */,
 				9B53571621B7AB5C0018AEBB /* Assets.xcassets */,
+				9B53572521B7B97E0018AEBB /* Pokemon.swift */,
 				9B53571821B7AB5C0018AEBB /* LaunchScreen.storyboard */,
 				9B53571B21B7AB5C0018AEBB /* Info.plist */,
 			);
-			path = Prepare;
+			path = Pokemon;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9B53570B21B7AB5A0018AEBB /* Prepare */ = {
+		9B53570B21B7AB5A0018AEBB /* Pokemom */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9B53571E21B7AB5C0018AEBB /* Build configuration list for PBXNativeTarget "Prepare" */;
+			buildConfigurationList = 9B53571E21B7AB5C0018AEBB /* Build configuration list for PBXNativeTarget "Pokemom" */;
 			buildPhases = (
 				9B53570821B7AB5A0018AEBB /* Sources */,
 				9B53570921B7AB5A0018AEBB /* Frameworks */,
@@ -79,9 +88,9 @@
 			);
 			dependencies = (
 			);
-			name = Prepare;
+			name = Pokemom;
 			productName = Prepare;
-			productReference = 9B53570C21B7AB5A0018AEBB /* Prepare.app */;
+			productReference = 9B53570C21B7AB5A0018AEBB /* Pokemom.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -99,7 +108,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 9B53570721B7AB5A0018AEBB /* Build configuration list for PBXProject "Prepare" */;
+			buildConfigurationList = 9B53570721B7AB5A0018AEBB /* Build configuration list for PBXProject "Pokemom" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -112,7 +121,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9B53570B21B7AB5A0018AEBB /* Prepare */,
+				9B53570B21B7AB5A0018AEBB /* Pokemom */,
 			);
 		};
 /* End PBXProject section */
@@ -135,8 +144,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B53572421B7AC150018AEBB /* RoleViewController.swift in Sources */,
 				9B53571221B7AB5A0018AEBB /* ViewController.swift in Sources */,
 				9B53571021B7AB5A0018AEBB /* AppDelegate.swift in Sources */,
+				9B53572221B7AC040018AEBB /* RolesTableViewController.swift in Sources */,
+				9B53572621B7B97E0018AEBB /* Pokemon.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,7 +300,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.peter.Prepare;
+				PRODUCT_BUNDLE_IDENTIFIER = com.atilas.pokemon;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -305,7 +317,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.peter.Prepare;
+				PRODUCT_BUNDLE_IDENTIFIER = com.atilas.pokemon;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -315,7 +327,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9B53570721B7AB5A0018AEBB /* Build configuration list for PBXProject "Prepare" */ = {
+		9B53570721B7AB5A0018AEBB /* Build configuration list for PBXProject "Pokemom" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9B53571C21B7AB5C0018AEBB /* Debug */,
@@ -324,7 +336,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9B53571E21B7AB5C0018AEBB /* Build configuration list for PBXNativeTarget "Prepare" */ = {
+		9B53571E21B7AB5C0018AEBB /* Build configuration list for PBXNativeTarget "Pokemom" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9B53571F21B7AB5C0018AEBB /* Debug */,
